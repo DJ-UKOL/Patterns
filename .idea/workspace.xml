@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0ac37da-f00b-4ecb-9a5b-11901c39cdf5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/chain/BugTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/chain/ChainOfResponsibility.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/chain/EmailNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/chain/Notifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/chain/Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/chain/SMSNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/chain/SimpleReportNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/decorator/Decorator.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/decorator/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/decorator/DeveloperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/decorator/JavaDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/decorator/JavaTeamLead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/decorator/SeniorJavaDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/decorator/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/CppDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/CppDeveloperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/DeveloperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/FactoryMethod.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/JavaDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/JavaDeveloperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/PhpDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/PhpDeveloperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/Coding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/DeveloperRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/Reading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/Sleeping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/Strategy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/Training.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Kttp11aP2xiubdo2hRNFDs155g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.dinerik.factory" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0ac37da-f00b-4ecb-9a5b-11901c39cdf5" name="Changes" comment="" />
+      <created>1674805888457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674805888457</updated>
+      <workItem from="1674805890137" duration="7599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
