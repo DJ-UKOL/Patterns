@@ -4,47 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0ac37da-f00b-4ecb-9a5b-11901c39cdf5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/chain/BugTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/chain/ChainOfResponsibility.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/chain/EmailNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/chain/Notifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/chain/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/chain/SMSNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/chain/SimpleReportNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/decorator/Decorator.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/decorator/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/decorator/DeveloperDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/decorator/JavaDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/decorator/JavaTeamLead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/decorator/SeniorJavaDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/decorator/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/CppDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/CppDeveloperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/DeveloperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/FactoryMethod.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/JavaDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/JavaDeveloperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/PhpDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/PhpDeveloperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factory/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/Coding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/DeveloperRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/Reading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/Sleeping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/Strategy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/strategy/Training.java" afterDir="false" />
+    <list default="true" id="c0ac37da-f00b-4ecb-9a5b-11901c39cdf5" name="Changes" comment="Chan, Decorator, Factory, Strategy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factoryMethodPattern/entity/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factoryMethodPattern/entity/PepperoniPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factoryMethodPattern/entity/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factoryMethodPattern/entity/VeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factoryMethodPattern/factory/BasePizzaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factoryMethodPattern/factory/PizzaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factoryMethodPattern/factoryMethodPattern.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/factoryMethodPattern/test/PizzaFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/proxy/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/proxy/ProjectRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/proxy/Proxy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/proxy/ProxyProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/proxy/RealProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,22 +53,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.dinerik.factory" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PizzaFactoryTest.testMakePizzas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.dinerik.factoryMethodPattern.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.dinerik.factoryMethodPattern.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.dinerik.factoryMethodPattern.test.PizzaFactoryTest" />
+      <option name="METHOD_NAME" value="testMakePizzas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PizzaFactoryTest.testMakePizzas" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,11 +101,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674805888457</updated>
-      <workItem from="1674805890137" duration="7599000" />
+      <workItem from="1674805890137" duration="8678000" />
+      <workItem from="1675530168932" duration="37000" />
+      <workItem from="1675576008040" duration="3027000" />
+      <workItem from="1676892861934" duration="3232000" />
     </task>
+    <task id="LOCAL-00001" summary="Chan, Decorator, Factory, Strategy">
+      <created>1674815113760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674815113760</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Chan, Decorator, factory, strategy" />
+    <MESSAGE value="Chan, Decorator, Factory, Strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chan, Decorator, Factory, Strategy" />
   </component>
 </project>
