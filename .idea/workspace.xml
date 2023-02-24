@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0ac37da-f00b-4ecb-9a5b-11901c39cdf5" name="Changes" comment="Add Abstract Factory Method Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/DecoratorPattern/decorator/FlowerBouquetDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/DecoratorPattern/decorator/Glitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/DecoratorPattern/decorator/PaperWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/DecoratorPattern/decorator/RibbonBow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/DecoratorPattern/entity/FlowerBouquet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/DecoratorPattern/entity/OrchidBouquet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/DecoratorPattern/entity/RoseBouquet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/DecoratorPattern/test/FlowerBouquetTest.java" afterDir="false" />
+    <list default="true" id="c0ac37da-f00b-4ecb-9a5b-11901c39cdf5" name="Changes" comment="Add Decorator Pattern.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/BuilderPattern/MyBuilderPatternWithLombok/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/BuilderPattern/MyBuilderPatternWithLombok/test/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/BuilderPattern/builder/ConcreteHouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/BuilderPattern/builder/ConstructionEngineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/BuilderPattern/builder/HouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/BuilderPattern/builder/PrefabricatedHouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/BuilderPattern/entity/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/BuilderPattern/test/ConstructionEngineerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dinerik/AbstractFactoryDesignPattern/MyAbstractFactory/entity/meat/PorkMeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dinerik/AbstractFactoryDesignPattern/MyAbstractFactory/entity/meat/PorkMeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,17 +71,32 @@
       <recent name="C:\Users\UKOL\IdeaProjects\Patterns\src\main\java\ru\dinerik\AbstractFactoryDesignPattern\MyAbstractFactory\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FlowerBouquetTest">
-    <configuration name="AsianShaurmaFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EmployeeTest">
+    <configuration name="ConstructionEngineerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.dinerik.AbstractFactoryDesignPattern.MyAbstractFactory.test.*" />
+          <option name="PATTERN" value="ru.dinerik.BuilderPattern.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.dinerik.AbstractFactoryDesignPattern.MyAbstractFactory.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.dinerik.AbstractFactoryDesignPattern.MyAbstractFactory.test.AsianShaurmaFactoryTest" />
+      <option name="PACKAGE_NAME" value="ru.dinerik.BuilderPattern.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.dinerik.BuilderPattern.test.ConstructionEngineerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.dinerik.BuilderPattern.MyBuilderPatternWithLombok.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.dinerik.BuilderPattern.MyBuilderPatternWithLombok.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.dinerik.BuilderPattern.MyBuilderPatternWithLombok.test.EmployeeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,22 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SicilianPizzaFactoryTest.testCreatePizza" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.dinerik.AbstractFactoryDesignPattern.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.dinerik.AbstractFactoryDesignPattern.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.dinerik.AbstractFactoryDesignPattern.test.SicilianPizzaFactoryTest" />
-      <option name="METHOD_NAME" value="testCreatePizza" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UzbekShaurmaFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Patterns" />
       <extension name="coverage">
@@ -150,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmployeeTest" />
+        <item itemvalue="JUnit.ConstructionEngineerTest" />
         <item itemvalue="JUnit.FlowerBouquetTest" />
         <item itemvalue="JUnit.UzbekShaurmaFactoryTest" />
         <item itemvalue="JUnit.GoodShaurmaFactoryTest" />
-        <item itemvalue="JUnit.AsianShaurmaFactoryTest" />
-        <item itemvalue="JUnit.SicilianPizzaFactoryTest.testCreatePizza" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +170,7 @@
       <workItem from="1675576008040" duration="3027000" />
       <workItem from="1676892861934" duration="11534000" />
       <workItem from="1676953975871" duration="16648000" />
-      <workItem from="1677123375099" duration="3718000" />
+      <workItem from="1677123375099" duration="12972000" />
     </task>
     <task id="LOCAL-00001" summary="Chan, Decorator, Factory, Strategy">
       <created>1674815113760</created>
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676994785449</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Decorator Pattern.">
+      <created>1677143750247</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677143750247</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +222,7 @@
     <MESSAGE value="Chan, Decorator, Factory, Strategy" />
     <MESSAGE value="Add Factory Method Pattern" />
     <MESSAGE value="Add Abstract Factory Method Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Abstract Factory Method Pattern" />
+    <MESSAGE value="Add Decorator Pattern." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Decorator Pattern." />
   </component>
 </project>
